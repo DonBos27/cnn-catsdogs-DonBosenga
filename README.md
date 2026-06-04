@@ -74,7 +74,6 @@ SEED = 42
 - numpy
 - matplotlib
 - pandas
-- scikit-learn
 - jupyter
 
 ## Utilisation du GPU
@@ -97,14 +96,17 @@ Le modèle CNN est composé de :
 - Batch Normalization
 - ReLU
 - Max Pooling
+---
 - Conv2D (64 filtres)
 - Batch Normalization
 - ReLU
 - Max Pooling
+---
 - Conv2D (128 filtres)
 - Batch Normalization
 - ReLU
 - Max Pooling
+---
 - Flatten
 - Dense (256 neurones)
 - Dropout (0.5)
